@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: 'Catamaran';
+  src: url('./assets/Catamaran-VariableFont_wght.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'LibreFranklin';
+  src: url('./assets/LibreFranklin-VariableFont_wght.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Sumana';
+  src: url('./assets/Sumana-Regular.ttf') format('truetype');
+}
+
+@theme {
+  --font-LibreFranklin: 'LibreFranklin', sans-serif;
+  --font-Sumana: 'Sumana', sans-serif;
+  --font-Catamaran: 'Catamaran', sans-serif;
+}
+
+
+@theme {
+  /* Define custom v4 utility names */
+  --animate-fade-in-up: fadeInUp 0.8s ease-out forwards;
+  --animate-shine: shine 1.2s ease-in-out forwards;
+  --animate-text-flow: textFlow 12s ease infinite;
+
+  /* Inject the raw keyframe rules */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes shine {
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+  /* Moves a large multi-stop gradient seamlessly across the text background */
+  @keyframes textFlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+}
+
+
+
+
+@theme {
+  --animate-float-slow: floatSlow 7s ease-in-out infinite;
+  --animate-shimmer-glow: shimmerGlow 5s infinite alternate;
+  --animate-pulse-slow: pulseSlow 4s ease-in-out infinite;
+
+  @keyframes floatSlow {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-15px) rotate(3deg); }
+  }
+
+  @keyframes shimmerGlow {
+    0% { opacity: 0.3; filter: blur(80px); }
+    100% { opacity: 0.6; filter: blur(110px); }
+  }
+
+  @keyframes pulseSlow {
+    0%, 100% { transform: scale(1); opacity: 0.8; }
+    50% { transform: scale(1.04); opacity: 1; }
+  }
+}
+
+
+
+
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+
+@theme {
+  --animate-marquee: marquee 25s linear infinite;
+}
