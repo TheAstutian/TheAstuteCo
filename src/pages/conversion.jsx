@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import {Asterisk} from 'lucide-react'
 import Lottie from "lottie-react";
-import Stairs_Success from '../assets/stairs_success.json'
+import Stairs_Success from '../assets/Stairs_Success.json'
 
 const Conversion = () =>{
 
