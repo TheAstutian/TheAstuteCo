@@ -132,13 +132,13 @@ export const Footer = () => (
         <div>
           <h6 className="text-lg font-semibold text-white mb-4">Connect</h6>
           <div className="flex space-x-4">
-            <a href="https://twitter.com/TheAstutians" target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-800 rounded-full hover:bg-indigo-600 transition duration-300">
+            <a href='#' /*"https://twitter.com/TheAstutians"*/ target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-800 rounded-full hover:bg-green-600 transition duration-300">
               <Twitter className="w-6 h-6 text-white" />
             </a>
-            <a href="https://instagram.com/TheAstutians" target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-800 rounded-full hover:bg-indigo-600 transition duration-300">
+            <a href='#' /*"https://instagram.com/TheAstutians"*/ target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-800 rounded-full hover:bg-green-600 transition duration-300">
               <Instagram className="w-6 h-6 text-white" />
             </a>
-            <a href="https://tiktok.com/@TheAstutians" target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-800 rounded-full hover:bg-indigo-600 transition duration-300">
+            <a href='#' /*"https://tiktok.com/@TheAstutians"*/ target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-800 rounded-full hover:bg-green-600 transition duration-300">
               {/* Using Share2 as a stand-in for TikTok, as a dedicated icon is not available in Lucide */}
               <Share2 className="w-6 h-6 text-white" />
             </a>
