@@ -46,7 +46,7 @@ const Services = () =>{
         <div className="bg-black ">
             <div className=" min-h-[60vh] md:min-h-[74vh] relative flex items-center justify-center overflow-hidden">
                 <div className=" relative bg-transparent  z-40">
-                <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-zinc-900 text-center font-LiberalFranklin">Make your brand pop!</h2>
+                <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-zinc-900 text-center font-LiberalFranklin">Make Your Brand Pop!</h2>
 
                <div className="flex flex-col items-center justify-center">
                     <div className='pt-0 w-3/5 md:w-3/5 text-center font-LiberalFranklin'>
